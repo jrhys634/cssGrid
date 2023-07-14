@@ -1,0 +1,30 @@
+:root {
+    --clr-dark: #0E0301;
+    --clr-lght: #F8F2F0;
+    --clr--ascnt: #16AA09;
+}
+
+* {
+    background-color: #F8F2F0;
+}
+
+.container {
+    background-color: white;
+    margin: 10% 10% 0 10%;
+    border: 10px solid black;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: var(--clr--ascnt);
+}
+
+/* GRID */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+} 
